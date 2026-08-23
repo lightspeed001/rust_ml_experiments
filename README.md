@@ -13,13 +13,16 @@
 
 ### Build and Run it (Generic) :hammer_and_pick:
 
-  > * Run it Locally:
+  > * __Run it Locally__:
+    
     ```bash
           cargo run --release
-     ```
+     ```  
 
-  > * Build and Run it Docker:
+  > * __Build and Run it Docker__:
+    
     ```bash
           docker build -t ${PROJECT_TITLE} .
           docker run -it ${PROJECT_TITLE}
-     ```
+     ```  
+
