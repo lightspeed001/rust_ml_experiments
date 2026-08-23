@@ -2,7 +2,7 @@
 ## GPU-Accelerated Image Blur (Box Filter)  
 #### Apply a 3x3 box blur to an image using CUDA.
 
-### Build and Run it (Generic) :hammer_and_pick:
+### Build and Run it :hammer_and_pick:
 
   > * __Run it Locally__:
     

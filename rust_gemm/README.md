@@ -1,7 +1,7 @@
 # rust_gemm
 ## Matrix Multiplication Benchmark (CPU vs GPU)  
 
-### Build and Run it (Generic) :hammer_and_pick:
+### Build and Run it :hammer_and_pick:
 
   > * __Run it Locally__:
     
