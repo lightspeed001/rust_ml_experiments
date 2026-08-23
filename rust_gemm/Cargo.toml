@@ -1,0 +1,10 @@
+[package]
+name = "rust_gemm"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+burn = { version = "0.13", features = ["ndarray", "train", "vision"] }
+burn-import = { version = "0.13", features = ["ndarray", "vision-dataset"] }
+ndarray = "0.15"
+rand = "0.8"
