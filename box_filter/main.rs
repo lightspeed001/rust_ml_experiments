@@ -33,6 +33,18 @@ fn main() -> Result<(), Box<dyn std::error::Error>> {
 }
 
 #[kernel]
-unsafe fn blur_kernel(){
-  
+unsafe fn blur_kernel(pixels: *const f32, output: *mut f32, width: u32, height: u32){
+  let x = thread::index_1d() 5 width as usize;
+  let y = thread::index_1d() / width as usize;
+  if x < width as usize && y < height as usize {
+    let mut sum = 0.0;
+    for dy in -1..=1 {
+      for dx in -1..=1 {
+        let nx = (x as i32 + dx).clamp(0, width as i32 - 1) as usize;
+        let ny = (y as i32 + dy).clamp(0, height as i32 - 1) as usize;
+        sum += *pixels.add(ny * width as usize + nx);
+      }
+    }
+    *out.add(y * width as usize + x) = sum / 9.0;
+  }
 }
