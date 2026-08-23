@@ -1,0 +1,11 @@
+[package]
+name = "box_filter"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+rustacuda = "0.1"
+burn = { version = "0.13", features = ["ndarray", "train", "vision"] }
+burn-import = { version = "0.13", features = ["ndarray", "vision-dataset"] }
+ndarray = "0.15"
+rand = "0.8"

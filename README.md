@@ -1,7 +1,7 @@
 # rust_ml_experiments
-## Practical Rust + CUDA ML experiments 
+## Practical Rust & CUDA ML experiments 
 
-### Projects: :hammer_and_pick:
+### Projects: :spiral_notepad:
   
   > * __Matrix Multiplication Benchmark__ (CPU vs GPU) [rust_gemm.md](rust_gemm/README.md)
   > * __GPU-Accelerated Image Blur__ (Box Filter) [box_filter.md](box_filter/README.md)
