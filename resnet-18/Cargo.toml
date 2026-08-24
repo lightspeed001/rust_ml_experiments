@@ -1,0 +1,4 @@
+[dependencies]
+burn = { version = "0.13", features = ["cuda", "train", "vision"] }
+burn-import = { version = "0.13", features = ["cuda", "vision-dataset"] }
+
