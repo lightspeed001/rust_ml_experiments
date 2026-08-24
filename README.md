@@ -11,6 +11,15 @@
   > * __Custom CUDA Kenernel__ with ``` rustacuda ``` (Parallel Reduction) [parrallel_reduction.md](parallel_reduction/README.md)
   > * __Monte Carlo Pi Estimation__  [monte_carlo.md](monte_carlo/README.md)
 
+### Key Optimisations :chart_with_upwards_trend:  
+  
+  > * __Matrix Multiply (GEMM)__ : Shared Memory & tiling. 50 -100x expected speedup (vs CPU).
+  > * __Image Blur__ : Shared memory for 3x3 neighborhood. 20-50x expected speedup (vs CPU).
+  > * __Mandelbrot__ : Coalesced memory access. 10-30x expected speedup (vs CPU).
+  > * __N-Body__ : Shared memory & tree methods. 30-80x expected speedup (vs CPU).
+  > * __Parallel Reduction__ : Bank conflict avoidence. 50-150x expected speedup (vs CPU).
+  
+
 ### Build and Run it (Generic) :hammer_and_pick:
 
   > * __Run it Locally__:
