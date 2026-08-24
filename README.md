@@ -18,7 +18,7 @@
   > * __Mandelbrot__ : Coalesced memory access. 10-30x expected speedup (vs CPU).
   > * __N-Body__ : Shared memory & tree methods. 30-80x expected speedup (vs CPU).
   > * __Parallel Reduction__ : Bank conflict avoidence. 50-150x expected speedup (vs CPU).
-  
+  > * __Monte Carlo Pi__ : Minimize atomic ops. 40-100x expected speedup (vs CPU).
 
 ### Build and Run it (Generic) :hammer_and_pick:
 
