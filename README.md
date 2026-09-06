@@ -20,7 +20,7 @@
   > * __Parallel Reduction__ : Bank conflict avoidence. 50-150x expected speedup (vs CPU).
   > * __Monte Carlo Pi__ : Minimize atomic ops. 40-100x expected speedup (vs CPU).
 
-### Build and Run it (Generic) :hammer_and_pick:
+### Build and Run it (Generic) :hammer_and_wrench:
 
   > * __Run it Locally__:
     
